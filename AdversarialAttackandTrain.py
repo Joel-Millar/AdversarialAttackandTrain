@@ -1,3 +1,5 @@
+#Implementation of EOT PGD Algorithm
+
 def adv_attack(model, X, y, device):
     X_adv = Variable(X.data)
     original_X = Variable(X.data)
